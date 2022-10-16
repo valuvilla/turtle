@@ -12,7 +12,7 @@ ArchivoBinario.close()
 
 
 
-Archivo2=open("ArchivoLista", "rb")
+Archivo2=open("datos", "rb")
 
 Lista2=pickle.load(Archivo2)
 
