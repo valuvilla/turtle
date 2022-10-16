@@ -4,13 +4,13 @@ import pickle
 datos=["Rosa","Verde"]
 
 
-ArchivoBinario=open("ArchivoLista", "wb")
+ArchivoBinario=open("datos", "wb")
 
 pickle.dump(datos, ArchivoBinario)
 
 ArchivoBinario.close()
 
-del (ArchivoBinario)
+
 
 Archivo2=open("ArchivoLista", "rb")
 
